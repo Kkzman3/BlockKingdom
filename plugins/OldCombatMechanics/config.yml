@@ -38,13 +38,13 @@ disable-attack-cooldown:
 disable-player-collisions:
   # This is to disable player collisions
   # This is now compatible with scoreboard and tablist-editing plugins
-  enabled: false
+  enabled: true
   worlds: []
 
 disable-sword-sweep:
   # This is to disable the sword sweep attack
   # Particle effect is also now removed
-  enabled: true
+  enabled: false
   worlds: []
   
 disable-crafting:
@@ -57,7 +57,7 @@ disable-crafting:
 disable-offhand:
   # Disable the usage of the offhand
   # Won't affect sword-blocking module
-  enabled: true
+  enabled: false
   worlds: []
   # Whether the following list allows items or blocks them
   whitelist: true
@@ -129,7 +129,7 @@ old-tool-damage:
 
 sword-blocking:
   # This is to allow players to block with swords again, by getting a shield while they hold right click with a sword
-  enabled: true
+  enabled: false
   worlds: []
   # How often, in ticks, OCM should check if the player is still blocking with a shield, and remove it if not
   # If this is too fast the player will have their shield disappear before they're able to block again causing a slight delay
@@ -242,7 +242,7 @@ old-armour-strength:
 disable-projectile-randomness:
   # This is to remove projectile randomness while firing arrows with a bow
   # This is actually a very old feature and has been in the game for quite some time
-  enabled: false
+  enabled: true
   worlds: []
     
 disable-bow-boost:
